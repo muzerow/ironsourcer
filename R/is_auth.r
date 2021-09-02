@@ -1,4 +1,4 @@
-#' Gets authorization token for IronSource API
+#' Get authorization token for IronSource API
 #' @importFrom httr add_headers content GET
 #' @export
 

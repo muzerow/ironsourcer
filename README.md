@@ -3,7 +3,7 @@
 
 # Available functions
 
-* `is_auth()` - Gets authorization token for IronSource API
+* `is_auth()` - Get authorization token for IronSource API
 
 ### Author
 
