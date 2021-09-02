@@ -3,7 +3,7 @@
 
 # Available functions
 
-* `is_auth()` - Get authorization token for IronSource API
+* `is_bearer_auth()` - Get Bearer API Authentication token
 
 ### Author
 
