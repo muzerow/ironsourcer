@@ -8,10 +8,14 @@
 #' @export
 
 is_bearer_auth <- function(secret_key, refresh_token) {
-  token <- content(GET("https://platform.ironsrc.com/partners/publisher/auth",
-                       add_headers('secretkey' = secret_key,
-                                   'refreshToken' = refresh_token)))
+  token <- GET("https://platform.ironsrc.com/partners/publisher/auth",
+               add_headers("secretkey" = secret_key,
+                           "refreshToken" = refresh_token))
 
-  auth_token <- paste("Bearer", token)
+  if (token$status_code != 200) {
+    stop(paste0("Error code ", token$status_code, ": ", content(token)$error))
+  }
+
+  auth_token <- paste("Bearer", content(token))
   return(auth_token)
 }
