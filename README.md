@@ -6,6 +6,7 @@
 
 * `is_bearer_auth()` - Get Bearer API Authentication token
 * `is_standard_auth()` - Get Standard API Authentication token
+* `is_revenue_impression.r` - Get Impression Level Revenue Data from Ad Revenue Measurement API
 
 ### Author
 
