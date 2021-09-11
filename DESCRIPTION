@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: Kirill Mukhin
 Maintainer: Kirill Mukhin <muzerow6@gmail.com>
 Description: Load data from IronSource API <https://developers.is.com/monetization/>.
-Imports: httr, RCurl
+Imports: httr, RCurl, stringr
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
