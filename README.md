@@ -5,6 +5,7 @@
 # Available functions
 
 * `is_bearer_auth()` - Get Bearer API Authentication token
+* `is_standard_auth()` - Get Standard API Authentication token
 
 ### Author
 
