@@ -3,6 +3,7 @@
 export(is_bearer_auth)
 export(is_reporting)
 export(is_revenue_impression)
+export(is_revenue_user)
 export(is_standard_auth)
 importFrom(RCurl,base64)
 importFrom(httr,GET)

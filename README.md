@@ -7,6 +7,7 @@
 * `is_standard_auth()` - Get Standard API Authentication token
 * `is_reporting()` - Get Data from Reporting API
 * `is_revenue_impression()` - Get Impression Level Revenue Data from Ad Revenue Measurement API
+* `is_revenue_user()` - Get User Level Revenue Data from Ad Revenue Measurement API
 
 ### Author
 
