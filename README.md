@@ -1,5 +1,5 @@
-# ironsourcer
-A Wrapper for IronSource API <img src='https://raw.githubusercontent.com/muzerow/ironsourcer/main/inst/ironsourcer.png' align="right" height="139" /></a>
+# ironsourcer <img src='https://raw.githubusercontent.com/muzerow/ironsourcer/main/inst/ironsourcer.png' align="right" height="139" /></a>
+A Wrapper for IronSource API
 
 # Available functions
 
