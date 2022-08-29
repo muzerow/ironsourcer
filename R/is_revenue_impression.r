@@ -9,7 +9,7 @@
 #' @export
 
 is_revenue_impression <- function(date, app_key, bearer_token) {
-  download_link <- GET("https://platform.ironsrc.com/partners/adRevenueMeasurements/v1?",
+  download_link <- GET("https://platform.ironsrc.com/partners/adRevenueMeasurements/v3?",
                        query = list(date = date,
                                     appKey = app_key),
                        add_headers("Authorization" = bearer_token))
