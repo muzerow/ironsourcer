@@ -7,7 +7,7 @@
 #'
 #' @export
 
-is_revenue_user <- function(link, file_path) {
+is_load_data <- function(link, file_path) {
   download.file(link, file_path, mode = "wb")
   gunzip(file_path)
 }
