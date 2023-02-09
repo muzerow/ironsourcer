@@ -1,6 +1,12 @@
 # ironsourcer <img src='https://raw.githubusercontent.com/muzerow/ironsourcer/main/inst/ironsourcer.png' align="right" height="139" /></a>
 A Wrapper for IronSource API
 
+# Installation
+
+```r
+remotes::install_github("muzerow/ironsourcer")
+```
+
 # Available functions
 
 * `is_bearer_auth()` - Get Bearer API Authentication token
